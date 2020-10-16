@@ -7,8 +7,8 @@ _Example using the starter in production:_ [robertistok.com](https://www.roberti
 1. Create a Gatsby site
 
  ```shell
-    gatsby new your-name-here ~~https://github.com/gatsbyjs/gatsby-starter-fusion-blog~~ <-- this link appears to be broken.
-    Instead, please fork the original [Github repo](https://github.com/robertistok/gatsby-starter-fusion-blog.git) directly from Robert\'s Github profile.
+    gatsby new your-name-here https://github.com/gatsbyjs/gatsby-starter-fusion-blog.
+    If above link is broken, fork original repo.
  ```
   
 2. Start developing
