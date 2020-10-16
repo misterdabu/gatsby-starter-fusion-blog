@@ -8,6 +8,7 @@ _Example using the starter in production:_ [robertistok.com](https://www.roberti
 
  ```shell
     gatsby new your-name-here https://github.com/gatsbyjs/gatsby-starter-fusion-blog.
+    
     If above link is broken, fork original repo.
  ```
   
