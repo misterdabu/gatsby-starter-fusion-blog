@@ -2,6 +2,7 @@ import {
   FaAt,
   FaLinkedin,
   FaTwitter,
+  FaInstagram,
   FaGithub,
   FaMedium,
   FaGoodreadsG,
@@ -37,6 +38,12 @@ const SOCIALS: { [key: string]: PredefinedLinkValue } = {
     Icon: FaTwitter,
     title: "Twitter",
     hoverColor: "#08a0e9",
+  },
+  instagram: {
+    baseUrl: "https://instagram.com",
+    Icon: FaInstagram,
+    title: "Instagram",
+    hoverColor: "#833AB4",
   },
   goodreads: {
     baseUrl: "https://goodreads.com",

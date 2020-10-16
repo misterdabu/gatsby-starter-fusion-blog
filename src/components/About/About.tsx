@@ -22,32 +22,18 @@ const About: React.FunctionComponent<AboutProps> = ({
       <Avatar fixed={avatar.childImageSharp.fixed as FixedObject} />
 
       <Description>
-        <h4>Hey there my friend!</h4>
+        <h4>Hey!</h4>
         <p>
-          My name is {author.name}, and I am {yearsSince(author.birthDate)}{" "}
-          years old. I have a passion for products having constructive effects
-          on our lives, and I love to be involved in the development of
-          purposeful applications.
+          My name is {author.firstname}! I'm just an average guy who loves to do things and talk about things. I enjoy traveling, meeting people and sharing meal with them. I am a wannabe whiskey connoisseur and enjoy an occasional cigar with it. When I'm not stuffing my face, I love to go out into the wild and spend time camping, hiking, fishing and just about any "survivalist" type activity.
         </p>
 
         <p>
-          I contribute to the product life cycle with my comprehensive skills in
-          web development, my growing knowledge of behavioral sciences and human
-          psychology, and my neverending hunger for growth.
+          Although I frequent the above activities, on an average day, most of my time is spent <i>Risk and Analytics Specialist</i> at an insurance company and serving at my home church.
         </p>
 
         <p>
-          When not building stuff, I love to explore, read fascinating books,
-          learn languages, write about my experiences in life, have amazing
-          dinners and meet interesting people. I am also obsessed with building
-          positive habits. I believe they are the keys to unlock our full
-          potential.
-        </p>
-
-        <p>
-          Do you want to find out more about me? Please shoot me an email at{" "}
-          <strong>{author.social.email}</strong> or reach out to me on social
-          media, listed below.
+          If you would like to get to know more about me, please feel free to email me at{" "}
+          <strong>{author.social.email}</strong> or reach out to me on one of the social media channels listed below.
         </p>
       </Description>
     </Root>
